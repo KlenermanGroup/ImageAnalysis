@@ -20,8 +20,6 @@ with open(indexfile,'r') as idx:
         idx_split = idx_line.split(':')
         print(idx_split)
         well_num = idx_split[0].strip()
-        sample = idx_split[1].strip()
-        sample_esc = sample.replace(" ","\ ")
         if well_num in idx_line and idx_split[1]:
             dirname2 = idx_split[1].strip()
             dirname = dirname2.replace(" ","").strip()
