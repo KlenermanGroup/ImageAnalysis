@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+
+### This is SortTifs.exe for Mac, executable from the command line. 
+### Instructions: 1. Move it to the folder with all of your .tif images
+### 2. Make the file an executable by typing in "chmod +x SortTifs.py" into the command line
+### 3. Enter "./SortTifs.py" 
+### Last updated by Santiago Sanchez, 25 Oct. 2017
 import shutil
 import os
 from pathlib import Path
